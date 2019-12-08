@@ -1,0 +1,29 @@
+// options: {
+//   presets: ['@babel/preset-env'],           //关键字
+//   plugins: [                                //函数
+//     '@babel/plugin-proposal-object-rest-spread',   
+//     '@babel/plugin-proposal-class-properties',
+//     '@babel/plugin-transform-runtime',
+//     [
+//       "component", {
+//         "libraryName": "mint-ui",
+//         "style": true
+//       }
+//     ] 
+//   ]
+// }
+
+{
+  "presets": ["@babel/preset-env"],           //关键字
+  "plugins": [                                //函数
+    "@babel/plugin-proposal-object-rest-spread",   
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-runtime",
+    [
+      "component", {
+        "libraryName": "mint-ui",
+        "style": true
+      }
+    ] 
+  ]  
+}
